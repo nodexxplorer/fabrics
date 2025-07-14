@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oldwyn - Your Wishlist</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="top-bar">
+            <div class="container">
+                <p></p>
+                <div class="top-links">
+                    <a href="account.html">Account</a>
+                    <a href="/" class="wishlist-link">Wishlist</a> <a href="cart.html" class="cart-link" aria-label="Shopping Cart">
+                        <svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <path d="M16 10a4 4 0 0 1-8 0"></path>
+                        </svg>
+                        <span class="cart-count">(0)</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="container">
+                <div class="logo">
+                    <img src="assets/logooldwyn.jpg" class="logo" alt="">
+                    <a href="/">OLDWYN</a> 
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="senator.html">THE SENATOR</a></li>
+                    <li><a href="about-us.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="wishlist-section container">
+        <h1 class="serif-font">Your Wishlist</h1>
+
+        <div class="wishlist-grid">
+            <div class="wishlist-item-card product-card">
+                <button class="remove-from-wishlist-btn" aria-label="Remove item from wishlist">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+                <a href="product-detail.html">
+                    <img src="https://via.placeholder.com/400x500/F5F5F5/000000?text=Ebuka+Senator+Beige" alt="The Ebuka Senator - Beige">
+                </a>
+                <h3 class="sans-serif-font"><a href="product-detail.html">The Ebuka Senator - Beige</a></h3>
+                <p class="price">$320.00</p>
+                <button class="btn accent-bg add-to-cart-btn-sm">Add to Cart</button>
+            </div>
+
+            <div class="wishlist-item-card product-card">
+                <button class="remove-from-wishlist-btn" aria-label="Remove item from wishlist">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+                <a href="product-detail.html">
+                    <img src="https://via.placeholder.com/400x500/F5F5F5/000000?text=Onyx+Governor+Black" alt="The Onyx Governor - Black">
+                </a>
+                <h3 class="sans-serif-font"><a href="product-detail.html">The Onyx Governor - Black</a></h3>
+                <p class="price">$380.00</p>
+                <button class="btn accent-bg add-to-cart-btn-sm">Add to Cart</button>
+            </div>
+
+            <div class="wishlist-item-card product-card">
+                <button class="remove-from-wishlist-btn" aria-label="Remove item from wishlist">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+                <a href="product-detail.html">
+                    <img src="https://via.placeholder.com/400x500/F5F5F5/000000?text=Prestige+Senator+Gray" alt="The Prestige Senator - Gray">
+                </a>
+                <h3 class="sans-serif-font"><a href="product-detail.html">The Prestige Senator - Gray</a></h3>
+                <p class="price">$350.00</p>
+                <button class="btn accent-bg add-to-cart-btn-sm">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="wishlist-actions">
+            <a href="senator.html" class="btn secondary-btn">Continue Shopping</a>
+            </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-col brand-info">
+                <div class="logo">OLDWYN</div>
+                <p class="sans-serif-font">Elegance Defined, Heritage Reimagined.</p>
+            </div>
+            <div class="footer-col">
+                <h4 class="sans-serif-font">Navigation</h4>
+                <ul class="footer-links sans-serif-font">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="senator.html">The Senator</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="sans-serif-font">Customer Service</h4>
+                <ul class="footer-links sans-serif-font">
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="shipping-returns.html">Shipping & Returns</a></li>
+                    <li><a href="size-guide.html">Size Guide</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="sans-serif-font">Connect With Us</h4>
+                 <div class="social-icons">
+                    <a href="https://instagram.com/oldwyn1" target="_blank" aria-label="Instagram"><img src="assets/Instagram_logo_2016.png" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/share/1BxHimutCW/" target="_blank" aria-label="Facebook"><img src="assets/Facebook_Logo_2023.png" alt="Facebook"></a>
+                    </div>
+                <h4 class="sans-serif-font newsletter-heading">Newsletter</h4>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" aria-label="Enter your email for newsletter">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p class="sans-serif-font">&copy; 2025 Oldwyn. All rights reserved. | <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll for internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Sticky header logic
+        const header = document.querySelector('.main-header');
+        const topBar = document.querySelector('.top-bar');
+        const topBarHeight = topBar ? topBar.offsetHeight : 0;
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > topBarHeight) {
+                header.classList.add('sticky');
+            } else {
+                header.classList.remove('sticky');
+            }
+        });
+
+        // Hamburger menu for mobile (basic toggle)
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('nav-active');
+            hamburger.classList.toggle('toggle');
+        });
+
+        // Basic Wishlist Item Removal (client-side only for demonstration)
+        document.addEventListener('DOMContentLoaded', () => {
+            const wishlistGrid = document.querySelector('.wishlist-grid');
+            
+            if (wishlistGrid) {
+                wishlistGrid.addEventListener('click', (event) => {
+                    const removeBtn = event.target.closest('.remove-from-wishlist-btn');
+                    if (removeBtn) {
+                        if (confirm('Are you sure you want to remove this item from your wishlist?')) {
+                            removeBtn.closest('.wishlist-item-card').remove();
+                            // In a real application, you'd send an AJAX request to update the wishlist on the server
+                            alert('Item removed from wishlist! (Backend update needed for real functionality)');
+                            // You might also check if the wishlist is now empty and display the empty message
+                        }
+                    }
+                });
+
+                // // Add to Cart functionality from wishlist (also client-side for demo)
+                // wishlistGrid.addEventListener('click', (event) => {
+                //     const addToCartBtn = event.target.closest('.add-to-cart-btn-sm');
+                //     if (addToCartBtn) {
+                //         // In a real application, you'd send an AJAX request to add the item to the cart on the server
+                //         alert('Item added to cart! (Backend update needed for real functionality)');
+                //         // Optionally, you might remove the item from the wishlist after adding to cart
+                //         // addToCartBtn.closest('.wishlist-item-card').remove();
+                //     }
+                // });
+            }
+        });
+    </script>
+
+</body>
+</html>

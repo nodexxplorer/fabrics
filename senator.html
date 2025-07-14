@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oldwyn - The Senator Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="top-bar">
+            <div class="container">
+                <p></p>
+                <div class="top-links">
+                    <a href="account.html">Account</a>
+                    <a href="wishlist.html">Wishlist</a>
+                    <a href="cart.html" class="cart-link" aria-label="Shopping Cart">
+                        <svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <path d="M16 10a4 4 0 0 1-8 0"></path>
+                        </svg>
+                        <span class="cart-count">(0)</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="container">
+                <div class="logo">
+                    <img src="assets/logooldwyn.jpg" class="logo" alt="">
+                    <a href="/">OLDWYN</a> 
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="/" class="active">THE SENATOR</a></li>
+                    <li><a href="about-us.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-header-section">
+        <div class="container">
+            <h1 class="serif-font">The Senator Collection</h1>
+            <p class="sans-serif-font">Explore our full range of meticulously crafted Senator attires, designed to elevate your style with unparalleled elegance and modern sophistication.</p>
+        </div>
+    </section>
+
+    <section class="filter-sort-bar">
+        <div class="container">
+            <div class="filter-group">
+                <label for="color-filter" class="sans-serif-font">Filter by Color:</label>
+                <select id="color-filter" class="sans-serif-font">
+                    <option value="all">All Colors</option>
+                    <option value="beige">Beige</option>
+                    <option value="black">Black</option>
+                    <option value="gray">Gray</option>
+                    <option value="teal">Teal</option>
+                    <option value="cream">Cream</option>
+                    <option value="navy">Navy Blue</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="style-filter" class="sans-serif-font">Filter by Embellishment:</label>
+                <select id="style-filter" class="sans-serif-font">
+                    <option value="all">All Styles</option>
+                    <option value="geometric">Geometric Pocket</option>
+                    <option value="abstract">Abstract Beaded</option>
+                    <option value="vertical-stripe">Vertical Stripes</option>
+                    <option value="plain">Minimal / Plain</option>
+                </select>
+            </div>
+            <div class="sort-group">
+                <label for="sort-by" class="sans-serif-font">Sort by:</label>
+                <select id="sort-by" class="sans-serif-font">
+                    <option value="newest">Newest Arrivals</option>
+                    <option value="price-asc">Price: Low to High</option>
+                    <option value="price-desc">Price: High to Low</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <section class="collection-product-grid-section">
+        <div class="container">
+            <div class="product-grid">
+                <a href="#product-detail-1" class="product-card">
+                    <img src="assets/pics24.jpg" alt="Senator Beige Geometric Attire">
+                    <h3 class="sans-serif-font">The Ebuka Senator</h3>
+                    <p class="price">$320.00</p>
+                    <button class="btn accent-bg add-to-cart-btn-sm">Add to Cart</button>
+                </a>
+                <a href="#product-detail-2" class="product-card">
+                    <img src="assets/pics31.jpg" alt="Senator Black Textured Attire">
+                    <h3 class="sans-serif-font">The Onyx Governor</h3>
+                    <p class="price">$380.00</p>
+                    <button class="btn accent-bg add-to-cart-btn-sm">Add to Cart</button>
+                </a>
+                <a href="#product-detail-3" class="product-card">
+                    <img src="assets/pics8.jpg" alt="Senator Gray Monochrome Attire">
+                    <h3 class="sans-serif-font">The Prestige Senator</h3>
+                    <p class="price">$350.00</p>
+                    <button class="btn accent-bg add-to-cart-btn-sm">Add to Cart</button>
+                </a>
+                <a href="#product-detail-4" class="product-card">
+                    <img src="assets/pics52.jpg" alt="Senator Black Multi-Color Attire">
+                    <h3 class="sans-serif-font">The Vibrant Legacy</h3>
+                    <p class="price">$360.00</p>
+                    <button class="btn accent-bg add-to-cart-btn-sm">Add to Cart</button>
+                </a>
+                <a href="#product-detail-5" class="product-card">
+                    <img src="assets/pics22.jpg" alt="Senator Beige Organic Attire">
+                    <h3 class="sans-serif-font">The Serene Artisan</h3>
+                    <p class="price">$310.00</p>
+                    <button class="btn accent-bg add-to-cart-btn-sm">Add to Cart</button>
+                </a>
+                <a href="#product-detail-6" class="product-card">
+                    <img src="assets/pics37.jpg" alt="Senator Cream Vertical Stripe Attire">
+                    <h3 class="sans-serif-font">The Oldwyn Classic</h3>
+                    <p class="price">$330.00</p>
+                    <button class="btn accent-bg add-to-cart-btn-sm">Add to Cart</button>
+                </a>
+                <a href="#product-detail-7" class="product-card">
+                    <img src="assets/pics34.jpg" alt="Senator Dark Gray Abstract Attire">
+                    <h3 class="sans-serif-font">The Modern Elite</h3>
+                    <p class="price">$370.00</p>
+                    <button class="btn accent-bg add-to-cart-btn-sm">Add to Cart</button>
+                </a>
+                <a href="#product-detail-8" class="product-card">
+                    <img src="assets/pics51.jpg" alt="Senator Navy Vertical Stripe Attire">
+                    <h3 class="sans-serif-font">The Maritime Senator</h3>
+                    <p class="price">$340.00</p>
+                    <button class="btn accent-bg add-to-cart-btn-sm">Add to Cart</button>
+                </a>
+                <a href="#product-detail-9" class="product-card">
+                    <img src="assets/pics45.jpg" alt="Senator Teal Geometric Attire">
+                    <h3 class="sans-serif-font">The Ocean Commander</h3>
+                    <p class="price">$355.00</p>
+                    <button class="btn accent-bg add-to-cart-btn-sm">Add to Cart</button>
+                </a>
+                </div>
+            <div class="load-more-section">
+                <button class="btn secondary-btn">Load More Styles</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-col brand-info">
+                <div class="logo">OLDWYN</div>
+                <p class="sans-serif-font">Elegance Defined, Heritage Reimagined.</p>
+            </div>
+            <div class="footer-col">
+                <h4 class="sans-serif-font">Navigation</h4>
+                <ul class="footer-links sans-serif-font">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/">The Senator</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="sans-serif-font">Customer Service</h4>
+                <ul class="footer-links sans-serif-font">
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="shipping-returns.html">Shipping & Returns</a></li>
+                    <li><a href="size-guide.html">Size Guide</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="sans-serif-font">Connect With Us</h4>
+                 <div class="social-icons">
+                    <a href="https://instagram.com/oldwyn1" target="_blank" aria-label="Instagram"><img src="assets/Instagram_logo_2016.png" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/share/1BxHimutCW/" target="_blank" aria-label="Facebook"><img src="assets/Facebook_Logo_2023.png" alt="Facebook"></a>
+                    </div>
+                <h4 class="sans-serif-font newsletter-heading">Newsletter</h4>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" aria-label="Enter your email for newsletter">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p class="sans-serif-font">&copy; 2025 Oldwyn. All rights reserved. | <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll for internal links (ensure this is in a common JS file or repeated)
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Sticky header logic (ensure this is in a common JS file or repeated)
+        const header = document.querySelector('.main-header');
+        const topBar = document.querySelector('.top-bar');
+        const topBarHeight = topBar ? topBar.offsetHeight : 0;
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > topBarHeight) {
+                header.classList.add('sticky');
+            } else {
+                header.classList.remove('sticky');
+            }
+        });
+
+        // Hamburger menu for mobile (basic toggle) (ensure this is in a common JS file or repeated)
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('nav-active');
+            hamburger.classList.toggle('toggle');
+        });
+
+
+         
+        // NOTE: For actual filtering and sorting functionality, you would add JavaScript here.
+        
+    </script>
+
+</body>
+</html>
